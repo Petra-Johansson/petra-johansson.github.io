@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding-right: 0px;
+  padding-left: 0px;
+  background-color: rgb(125, 176, 196);
+  height: 1000px;
+  width: 100%;
+}
+#container {
+  display: flex;
+  position: static;
+  height: 50px;
+  margin-bottom: 50px;
+  background-color: rgb(106, 162, 184);
+  width: 100vw;
+}
+#header {
+  float: left;
+  position: fixed;
+  top: 0;
+  height: 50px;
+  width: 100%;
+  background-color: #613c4b;
+  margin: 0;
+}
+
+#unordered-list {
+  display: flex;
+}
+
+#main-nav ul {
+  list-style: none;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin: 0;
+  width: 100vw;
+}
+#main-nav ul li a {
+  display: block;
+  float: left;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  font-family: "nunito", sans-serif;
+  font-weight: 600;
+  color: rgb(228, 227, 227);
+  font-size: 20px;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+#main-nav ul li a:hover {
+  background-color: #3d232e;
+  color: white;
+}
+h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  margin: 10px, 15px;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 15px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  padding: 10px 20vw;
+  width: 100vw;
+}
+#hello,
+#portfolio {
+  color: black;
+}
+
+#aboutMe,
+#contact {
+  background-color: #613c4b;
+  color: rgb(228, 227, 227);
+}
+
+.spacer {
+  aspect-ratio: 900/150;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bluePurp {
+  background-image: url("svg/bluePurp.svg");
+}
+.purpBlue {
+  background-image: url("svg/purpBlue.svg");
+}
+
+footer {
+  background-color: #613c4b;
+  display: flex;
+  justify-content: center;
+
+  font-family: "nunito", sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+#white {
+  color: rgb(228, 227, 227);
+}
