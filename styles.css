@@ -10,13 +10,14 @@ body {
   height: 1000px;
   width: 100%;
 }
+
 #container {
   display: flex;
   position: static;
   height: 50px;
   margin-bottom: 50px;
   background-color: rgb(106, 162, 184);
-  width: 100vw;
+  width: 100%;
 }
 #header {
   float: left;
@@ -56,6 +57,8 @@ body {
   background-color: #3d232e;
   color: white;
 }
+
+h1,
 h2 {
   font-family: "Nunito", sans-serif;
   font-size: 50px;
@@ -76,9 +79,10 @@ section {
   flex-direction: column;
   align-items: center;
   min-height: 400px;
-  padding: 10px 20vw;
-  width: 100vw;
+  padding: 10px 20%;
+  width: 100%;
 }
+
 #hello,
 #portfolio {
   color: black;
@@ -92,11 +96,12 @@ section {
 
 .spacer {
   aspect-ratio: 900/150;
-  width: 100vw;
+  width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+
 .bluePurp {
   background-image: url("svg/bluePurp.svg");
 }
