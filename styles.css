@@ -4,17 +4,25 @@
 
 body {
   margin: 0;
-  padding-right: 0px;
+  /*padding-right: 0px;
   padding-left: 0px;
-
+*/
   background-color: #c2bcb4;
   width: 100%;
+}
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
 }
 
 #container {
   display: flex;
   position: static;
-  min-height: 30px;
+  height: 30px;
   margin-bottom: 50px;
   background-color: #c2bcb4;
   width: 100%;
@@ -35,8 +43,8 @@ body {
 
 #main-nav ul {
   list-style: none;
-  margin-bottom: 10px;
-  padding: 10px;
+
+  /*padding: 10px 15px;*/
   margin: 0;
   width: 100vw;
 }
@@ -51,11 +59,12 @@ body {
   color: rgb(228, 227, 227);
   font-size: 1em;
   text-decoration: none;
-  padding: 5px 5px;
+  padding: 15px 10px;
 }
 #main-nav ul li a:hover {
-  background-color: #3d232e;
+  background-color: #775358;
   color: rgb(228, 227, 227);
+  max-height: 90%;
 }
 
 h1,
