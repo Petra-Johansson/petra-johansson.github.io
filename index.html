@@ -92,17 +92,37 @@
     <div class="spacer beigePurp"></div>
 
     <section id="contact">
-      <header><h2 id="contact">Contact</h2></header>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-        corporis molestiae assumenda beatae! Error quo aut, eveniet quisquam
-        sapiente molestiae qui distinctio consequatur aliquid! Reprehenderit
-        doloremque expedita aliquid laborum error!
-      </p>
+      <header><h2 id="contactHeader">Contact</h2></header>
+
+      <div id="contactContainer">
+        <h3>If you wish to contact me, please fill in this form!</h3>
+
+        <div class="contactForm">
+          <div>
+            <label for="name">What's your name?</label>
+            <input type="text" id="name" /><br />
+          </div>
+          <div>
+            <label for="email">What's your e-mail?</label>
+            <input type="email" id="email" required /><br />
+          </div>
+          <div>
+            <label for="comment"></label>
+            <textarea
+              name="comment"
+              id="comment"
+              rows="5"
+              placeholder="Write your message here!"
+            ></textarea>
+            <br />
+
+            <input type="submit" value="Submit" />
+          </div>
+        </div>
+      </div>
     </section>
     <footer>
       <h3>© 2021 All rights reserved.</h3>
-      >
     </footer>
   </body>
 </html>
