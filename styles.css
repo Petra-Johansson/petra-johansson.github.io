@@ -33,6 +33,7 @@ h1 {
   width: 100%;
   background-color: #613c4b;
   margin: 0;
+  transition: top 0.3s;
 }
 
 #unordered-list {
