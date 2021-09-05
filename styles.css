@@ -11,7 +11,7 @@ body {
   width: 100%;
 }
 html {
-  line-height: 1.15;
+  line-height: 1.5;
   -webkit-text-size-adjust: 100%;
 }
 h1 {
@@ -64,7 +64,7 @@ h1 {
 #main-nav ul li a:hover {
   background-color: #775358;
   color: rgb(228, 227, 227);
-  max-height: 90%;
+  max-height: 88%;
 }
 
 h1,
@@ -131,7 +131,6 @@ footer {
   background-color: #613c4b;
   display: flex;
   justify-content: center;
-
   font-family: "nunito", sans-serif;
   font-weight: 200;
   font-size: 15px;
