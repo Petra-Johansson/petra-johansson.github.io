@@ -4,19 +4,27 @@
 
 body {
   margin: 0;
-  padding-right: 0px;
+  /*padding-right: 0px;
   padding-left: 0px;
-  background-color: rgb(125, 176, 196);
-  height: 1000px;
+*/
+  background-color: #c2bcb4;
   width: 100%;
+}
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
 }
 
 #container {
   display: flex;
   position: static;
-  height: 50px;
+  height: 30px;
   margin-bottom: 50px;
-  background-color: rgb(106, 162, 184);
+  background-color: #c2bcb4;
   width: 100%;
 }
 #header {
@@ -35,8 +43,8 @@ body {
 
 #main-nav ul {
   list-style: none;
-  margin-bottom: 10px;
-  padding: 10px;
+
+  /*padding: 10px 15px;*/
   margin: 0;
   width: 100vw;
 }
@@ -49,13 +57,14 @@ body {
   font-family: "nunito", sans-serif;
   font-weight: 600;
   color: rgb(228, 227, 227);
-  font-size: 20px;
+  font-size: 1em;
   text-decoration: none;
-  padding: 5px 10px;
+  padding: 15px 10px;
 }
 #main-nav ul li a:hover {
-  background-color: #3d232e;
-  color: white;
+  background-color: #775358;
+  color: rgb(228, 227, 227);
+  max-height: 88%;
 }
 
 h1,
@@ -82,7 +91,15 @@ section {
   padding: 10px 20%;
   width: 100%;
 }
-
+a {
+  color: rgb(0, 0, 0);
+  font-weight: 300;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover {
+  background-color: rgba(228, 227, 277, 0.5);
+}
 #hello,
 #portfolio {
   color: black;
@@ -91,6 +108,7 @@ section {
 #aboutMe,
 #contact {
   background-color: #613c4b;
+
   color: rgb(228, 227, 227);
 }
 
@@ -102,18 +120,17 @@ section {
   background-size: cover;
 }
 
-.bluePurp {
-  background-image: url("svg/bluePurp.svg");
+.beigePurp {
+  background-image: url("svg/beigePurp.svg");
 }
-.purpBlue {
-  background-image: url("svg/purpBlue.svg");
+.purpBeige {
+  background-image: url("svg/purpBeige.svg");
 }
 
 footer {
   background-color: #613c4b;
   display: flex;
   justify-content: center;
-
   font-family: "nunito", sans-serif;
   font-weight: 200;
   font-size: 15px;
